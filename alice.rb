@@ -6,7 +6,7 @@ def anagram_maker(string1, string2)
 	combined_characters.flatten!
 	character_frequencies = Hash.new(0)
 	
-	combined_characters.flatten.each do |individual_letter|
+	combined_characters.each do |individual_letter|
 		character_frequencies[individual_letter] += 1
 	end 
 

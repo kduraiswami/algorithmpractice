@@ -1,4 +1,5 @@
 def alternate_count(string)
+	
 	string_letters = string.split('')
 	letter_removal_count = 0
 	i = 0 
