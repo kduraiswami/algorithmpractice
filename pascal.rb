@@ -25,4 +25,4 @@ end
 p pascal_triangle(0) == "must have at least one row!"
 p pascal_triangle(1) == [[1]]
 p pascal_triangle(2) == [[1],[1,1]]
-p pascal_triangle(4) #== [[1],[1,1],[1,2,1],[1,3,3,1]]
+p pascal_triangle(4) == [[1],[1,1],[1,2,1],[1,3,3,1]]
