@@ -5,7 +5,6 @@ var pairsWithSum = function(sum,sample_data) {
 	var i = 0
 	foreach( i in sample_data) {
 		if (found[100 - sample_data[i]] === true) {
-        // pair found
         results.push({
         	a: sample_data[i],
         	b: 100 - sample_data[i]

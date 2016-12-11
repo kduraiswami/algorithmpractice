@@ -28,16 +28,6 @@ def sherlock_sum(array)
 	return "NO"
 end
 
-
-# I caught the nil error
-# I don't like having the separate logic for the [0] element of the array
-# I don't like having the separate logic for the [-1] element of the array
-# I like using the i value and comparing the sums
-# I feel like the inject method is too powerful for this to be challenging
-# I thought I was on to something by setting the sum initially to 0, but maybe this is valid edge case handling
-# I need to think about the calculation cost of this method and using inject
-
-
 p sherlock_sum([]) == "NO"
 p sherlock_sum([1,2,3]) == "NO"
 
